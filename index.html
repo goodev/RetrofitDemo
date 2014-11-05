@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Retrofitdemo : Retrofit android demo">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Retrofitdemo</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/goodev/RetrofitDemo">View on GitHub</a>
+
+          <h1 id="project_title">Retrofitdemo</h1>
+          <h2 id="project_tagline">Retrofit android demo</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/goodev/RetrofitDemo/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/goodev/RetrofitDemo/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a id="custom-mode-help" class="anchor" href="#custom-mode-help" aria-hidden="true"><span class="octicon octicon-link"></span></a>Custom mode help</h3>
+
+<p>The standard android system have many font files. Different font files used in different place. Normally we just change the default Roboto-Regular.ttf font file to change system font. But in some place, such as Dialpad, will use other font. Also there have a lot of custom ROMs and OME ROMs, some of that will change the default system font, such as Sony Xperia devices using the SoMARegular.ttf font.</p>
+
+<p>In CUSTOM MODE you can define the files list you want to change. When you set a font to system, Fonter will popup this file list let you choose the files you want to replace. **BUT, There are some risks to cause device bootloop if you replace some files,such as if you replace SoMABold.ttf font on Sony Xperia will cause bootloop. ** So please careful when using CUSTOM MODE. </p>
+
+<p>The standard Android have those fonts in /system/fonts/ folder:</p>
+
+<ul>
+<li>AndroidClock.ttf = Stock Digital Clock Widget &amp; Dock/Desk Clock ("Clock" in App Drawer).</li>
+<li>AndroidClock_Highlight.ttf = Lock Screen Clock.</li>
+<li>AndroidClock_Solid.ttf = Unsure of its purpose.</li>
+<li>Clockopia.ttf = Former Stock clock font but, seems unused by the system in Android 4.0+.</li>
+<li>DroidSans.ttf = Apparently unused in Android 4.0+. System font from previous Android versions.</li>
+<li>DroidSans-Bold = Apparently unused in Android 4.0+. Bold system font from previous Android versions.</li>
+<li>Roboto-Regular.ttf = This is the one always referred to as the "System Font." It yields the most noticeable results and, is the one all the font changer apps alter. Affects almost all text on your device.</li>
+<li>Roboto-Bold = The bold version of Roboto. Not seen everywhere but it is seen. Opening your Gmail app to an email in your inbox will allow you to see Regular and Bold in the same occurrence. The sender's name will be in bold and their address will be in Regular. I recommend changing if you have a bold version of your replacement font.</li>
+<li>Roboto-Italic = Unsure of its frequency of use but, it's not often. However, if you have a matching Italic font, it can't hurt to use it.</li>
+<li>Roboto-BoldItalic = Unsure of its frequency of use but, it's not often. However, if you have a matching Bold Italic font, it can't hurt to use it.</li>
+</ul>
+
+<p>There are also various other languages of the Roboto font in the "System/fonts" folder. If a particular language is your default, I'm sure it's obvious what adjustments you would need to make with regards to font replacement.</p>
+
+<p>more info: <a href="http://forum.xda-developers.com/showthread.php?t=1847203">http://forum.xda-developers.com/showthread.php?t=1847203</a></p>
+
+<p>now, let's see how to use the CUSTOM MODE.</p>
+
+<h3>
+<a id="1-enable-custom-mode" class="anchor" href="#1-enable-custom-mode" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. Enable CUSTOM MODE</h3>
+
+<p>Go to the Settings screen, set "Font install type" to "CUSTOM MODE".
+<img src="http://goodev.github.io/root/images/setting1.png" alt="Choose CUSTOM MODE"></p>
+
+<h3>
+<a id="2-define-the-font-files-list-you-want-to-change" class="anchor" href="#2-define-the-font-files-list-you-want-to-change" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. Define the font files list you want to change</h3>
+
+<p>Click the "Font list to replace" preference on the Settings screen. On the "Custom fonts" screen to config font files. You can add new ttf files or delete the file you don't need.
+<img src="http://goodev.github.io/root/images/custom_font.png" alt="Add font files"></p>
+
+<h3>
+<a id="3-change-system-font" class="anchor" href="#3-change-system-font" aria-hidden="true"><span class="octicon octicon-link"></span></a>3. Change system font</h3>
+
+<p>Now you can change system font. When you change system font , will popup a dialog let you choose which files you want to change. Choose the font files and click OK to change font.
+<img src="http://goodev.github.io/root/images/set_font.png" alt="set system font"></p>
+
+<p><img src="http://goodev.github.io/root/images/choose_font.png" alt="Choose font to replace"></p>
+
+<p>That's all! you are done!!!</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Retrofitdemo maintained by <a href="https://github.com/goodev">goodev</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
